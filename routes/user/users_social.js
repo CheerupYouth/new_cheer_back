@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const jwt = require('jsonwebtoken');
-const conn = require('../DB');
+const conn = require('../../db');
 const dotenv = require('dotenv');
 
 // JSON 형태의 본문을 파싱할 수 있도록 설정

@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const jwt = require('jsonwebtoken');
-const conn = require('../DB');
+const conn = require('../../db');
+// const conn = require('../DB');
 const { body, params, validationResult } = require('express-validator');
 const dotenv = require('dotenv');
 
